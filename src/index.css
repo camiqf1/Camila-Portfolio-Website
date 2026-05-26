@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+  background: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+.navbar h2 {
+  color: #38bdf8;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #cbd5e1;
+}
+
+.hero {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 8%;
+  background: linear-gradient(135deg, #0f172a, #1e1b4b);
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin: 20px 0;
+}
+
+.hero-content p {
+  max-width: 700px;
+  color: #cbd5e1;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.tag {
+  color: #38bdf8 !important;
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.buttons a,
+.contact a {
+  background: #38bdf8;
+  color: #020617;
+  padding: 12px 22px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 80px 8%;
+}
+
+.section h2 {
+  font-size: 38px;
+  margin-bottom: 25px;
+  color: #38bdf8;
+}
+
+.section p {
+  color: #cbd5e1;
+  line-height: 1.8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid #334155;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+}
+
+.card span {
+  display: block;
+  margin-top: 15px;
+  color: #38bdf8;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skills span {
+  background: #1e293b;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid #334155;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact p {
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  background: #020617;
+  color: #94a3b8;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero-content h1 {
+    font-size: 42px;
+  }
+}
