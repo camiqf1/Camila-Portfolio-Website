@@ -1,16 +1,52 @@
-# React + Vite
+# Camila Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website designed to showcase my projects, technical skills, and experience in software engineering, full-stack development, and interactive technologies through a modern minimalist interface.
 
-Currently, two official plugins are available:
+## Live Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://camila-portfolio-website.vercel.app
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Modern responsive design
+* Project showcase section
+* Minimalist cyberpunk-inspired aesthetic
+* Skills and experience sections
+* GitHub and professional links
+* Mobile-friendly layout
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+
+* React
+* Vite
+* JavaScript
+* CSS
+
+### Deployment
+
+* Vercel
+
+## Project Purpose
+
+This portfolio was created to present my software engineering projects, technical experience, and development skills in a clean and modern format. The design focuses on simplicity, readability, and a professional visual identity inspired by modern editorial and cyberpunk-inspired interfaces.
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```
+
+## Build Project
+
+```bash
+npm run build
+```
+
+## Author
+
+Camila Queiroz Figueiredo
+
+GitHub: https://github.com/camiqf1
