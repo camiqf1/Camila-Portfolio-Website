@@ -29,7 +29,7 @@ a {
 
 .nav-links {
   display: flex;
-  gap: 20px;
+  gap: 25px;
 }
 
 .nav-links a {
@@ -114,10 +114,48 @@ a {
   color: #38bdf8;
 }
 
+.card small {
+  color: #94a3b8;
+}
+
+.project-button {
+  display: inline-block;
+  margin-top: 15px;
+  color: #ffffff !important;
+  text-decoration: underline !important;
+  font-weight: normal;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.project-button:visited {
+  color: #ffffff !important;
+}
+
+.project-button:hover {
+  color: #e2e8f0 !important;
+}
+
+.project-button:active {
+  color: #ffffff !important;
+}
+
+/* EXPERIENCE SPACING */
+#experience .card {
+  margin-bottom: 25px;
+}
+
+#experience .card:last-child {
+  margin-bottom: 0;
+}
+
+/* SKILLS FIX */
 .skills {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
+  margin-top: 20px;
 }
 
 .skills span {
