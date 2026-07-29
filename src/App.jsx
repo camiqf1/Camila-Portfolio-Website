@@ -32,7 +32,7 @@ return ( <div> <nav className="navbar"> <h2>Camila Figueiredo</h2>
         </a>
 
         <a
-          href="linkedin.com/in/camilaqfigueiredo"
+          href="https://linkedin.com/in/camilaqfigueiredo"
           target="_blank"
           rel="noreferrer"
         >
