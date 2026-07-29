@@ -32,7 +32,7 @@ return ( <div> <nav className="navbar"> <h2>Camila Figueiredo</h2>
         </a>
 
         <a
-          href="https://www.linkedin.com/in/camila-queiroz-figueiredo-359470203/"
+          href="linkedin.com/in/camilaqfigueiredo"
           target="_blank"
           rel="noreferrer"
         >
@@ -137,6 +137,7 @@ return ( <div> <nav className="navbar"> <h2>Camila Figueiredo</h2>
     <div className="skills">
       <span>Java</span>
       <span>JavaScript</span>
+      <span>C++</span>
       <span>Python</span>
       <span>React</span>
       <span>Next.js</span>
